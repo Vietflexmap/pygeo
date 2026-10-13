@@ -1,6 +1,6 @@
-# PyGeo Academy — Python for GIS
+# PyGeo Academy — Học GIS + Python từ con số 0
 
-Nền tảng E-Learning Python và GIS của Vietflexmap, giao diện lấy cảm hứng từ mô hình học tập chuyên nghiệp (không liên kết chính thức với LinkedIn Learning).
+Nền tảng E-Learning **GIS + Python dành cho mọi người học**, không giới hạn đối tượng sinh viên hoặc chuyên ngành; giao diện lấy cảm hứng từ mô hình học tập chuyên nghiệp (không liên kết chính thức với LinkedIn Learning).
 
 ## Chức năng
 - Dashboard responsive với 5 học phần, 15 bài học.
@@ -22,3 +22,9 @@ Trong repository: **Settings → Pages → Build and deployment → Deploy from 
 - Đây là bản MVP; chưa có video bài giảng, chấm code trực tuyến, chứng chỉ xác thực hoặc LMS backend.
 
 © Vietflexmap · Long Ngo 2026.
+
+## Định vị nội dung
+- Đối tượng: người bắt đầu tìm hiểu GIS và Python, người chuyển ngành, người thực hành bản đồ số, kỹ thuật viên và chuyên gia muốn tự động hóa.
+- Điểm khởi đầu: hiểu dữ liệu điểm, đường, vùng, CRS và nền tảng Python trước khi thực hành GeoPandas, raster, GeoAI, WebGIS.
+- Tiêu đề Bài 1: **Bắt đầu với GIS + Python: Từ con số 0 đến bản đồ số**.
+- Nguồn HCMUSSH được giữ dưới dạng liên kết tham khảo theo yêu cầu; không đồng nghĩa nội dung tự biên soạn thuộc về đơn vị xuất bản.
