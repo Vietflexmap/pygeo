@@ -1,30 +1,49 @@
-# PyGeo Academy — Học GIS + Python từ con số 0
+# PyGeo Academy — GIS + Python + QGIS
 
-Nền tảng E-Learning **GIS + Python dành cho mọi người học**, không giới hạn đối tượng sinh viên hoặc chuyên ngành; giao diện lấy cảm hứng từ mô hình học tập chuyên nghiệp (không liên kết chính thức với LinkedIn Learning).
+Nền tảng E-Learning thực hành GIS và Python của Vietflexmap. Chương trình dành cho tất cả người học, kể cả người mới bắt đầu, theo tư duy **hiểu GIS → dùng QGIS → viết Python → tự động hóa bằng PyQGIS → ứng dụng dữ liệu không gian, viễn thám, GeoAI và WebGIS**.
+
+## Định hướng học tập
+- **GIS trước:** hệ tọa độ (CRS), vector, raster, topology, dữ liệu thuộc tính và nguyên tắc chất lượng dữ liệu.
+- **QGIS để quan sát và kiểm chứng:** nạp lớp bản đồ, chuyển CRS, Processing Toolbox, xem bảng thuộc tính và đối chiếu kết quả.
+- **Python để lập trình:** thao tác GeoPandas, Shapely, Rasterio, NumPy và tạo pipeline có thể tái lập.
+- **PyQGIS để tích hợp:** chạy script trong QGIS Python Console, tự động hóa Processing và phát triển plugin.
+- **Bài tập thực tế:** đối chiếu đầu ra Python với cùng bài toán thực hiện trên QGIS khi phù hợp.
+
+## Lộ trình 15 bài
+1. Bắt đầu với GIS + Python: Từ con số 0 đến bản đồ số
+2. Thiết lập môi trường Python GIS
+3. Dữ liệu vector với GeoPandas và đối chiếu QGIS
+4. Buffer, Intersection, Union với Python và QGIS
+5. Rasterio và lớp raster trong QGIS
+6. Tự động hóa xử lý hàng loạt
+7. Bản đồ tương tác với Folium và Leafmap
+8. OpenStreetMap và Google Earth Engine
+9. Nội suy và địa thống kê
+10. Phân loại lớp phủ bằng Machine Learning
+11. Chỉ số môi trường NDVI, NDWI
+12. Big Data trong GIS
+13. PyQGIS và plugin đơn giản
+14. Phân tích mạng đường với NetworkX
+15. Dashboard GIS với Dash và Plotly
 
 ## Chức năng
-- Dashboard responsive với 5 học phần, 15 bài học.
-- Danh mục, tìm kiếm, lộ trình, Code Lab chỉnh sửa và sao chép ví dụ.
-- Trắc nghiệm một câu mỗi bài và tiến độ lưu trong localStorage.
-- Các liên kết nguồn bài 1–6 được thống nhất về https://hcmussh.edu.vn/news/item.
+- Dashboard responsive, danh mục 15 bài trong 5 học phần, tìm kiếm và lộ trình.
+- Nội dung lý thuyết, bảng kiến thức, ví dụ code, trắc nghiệm tự đánh giá.
+- Code Lab để chỉnh sửa và sao chép ví dụ Python.
+- Tiến độ học tập được lưu cục bộ bằng `localStorage`.
+- Tài liệu nền tảng: [QGIS User Manual](https://docs.qgis.org/latest/en/docs/user_manual/), [PyQGIS Developer Cookbook](https://docs.qgis.org/latest/en/docs/pyqgis_developer_cookbook/), [Python docs](https://docs.python.org/3/), [GeoPandas](https://geopandas.org/).
 
-## Chạy
-Mở `index.html` trong trình duyệt hoặc dùng static web server (`python -m http.server 8000`). Không yêu cầu build hay backend.
+## Chạy ứng dụng
+Mở `index.html` trong trình duyệt, hoặc khởi động web server tĩnh: `python -m http.server 8000`.
 
 ## GitHub Pages
-Trong repository: **Settings → Pages → Build and deployment → Deploy from a branch → main / (root) → Save**. Sau khi GitHub Pages được kích hoạt và triển khai xong, địa chỉ dự kiến là https://vietflexmap.github.io/pygeo/ .
+Repository → Settings → Pages → Deploy from a branch → `main` / `(root)` → Save.
+Website: https://vietflexmap.github.io/pygeo/
 
-## Lưu ý
-- Editor trên web không thực thi Python; mã được chạy trong Jupyter hoặc môi trường Python bên ngoài.
-- Tiến độ được lưu tại trình duyệt hiện tại, chưa đồng bộ tài khoản hay thiết bị.
-- Bài 1–6 sử dụng cùng liên kết chuyên mục HCMUSSH (không dẫn trực tiếp từng bài); Bài 7–15 là khung bài học và ví dụ kỹ thuật của PyGeo Academy, chưa phải bài viết gốc của HCMUSSH.
-- Mã ví dụ có thể cần thư viện, dữ liệu đầu vào, kết nối Internet, hệ tọa độ phù hợp, hoặc môi trường QGIS.
-- Đây là bản MVP; chưa có video bài giảng, chấm code trực tuyến, chứng chỉ xác thực hoặc LMS backend.
+## Giới hạn hiện tại
+- Code Lab trên website là trình chỉnh sửa mẫu, **không chạy Python**. Thực thi trong Jupyter hoặc Python được cài đặt trên máy.
+- Các thao tác PyQGIS phải chạy trong môi trường QGIS phù hợp.
+- Chưa có đăng nhập nhiều người dùng, đồng bộ tiến độ xuyên thiết bị, bài thi chấm tự động hay chứng chỉ xác thực.
+- Một số ví dụ cần thư viện ngoài, dữ liệu phù hợp, Internet hoặc tài khoản API. Kiểm tra CRS và chất lượng dữ liệu trước khi phân tích.
 
 © Vietflexmap · Long Ngo 2026.
-
-## Định vị nội dung
-- Đối tượng: người bắt đầu tìm hiểu GIS và Python, người chuyển ngành, người thực hành bản đồ số, kỹ thuật viên và chuyên gia muốn tự động hóa.
-- Điểm khởi đầu: hiểu dữ liệu điểm, đường, vùng, CRS và nền tảng Python trước khi thực hành GeoPandas, raster, GeoAI, WebGIS.
-- Tiêu đề Bài 1: **Bắt đầu với GIS + Python: Từ con số 0 đến bản đồ số**.
-- Nguồn HCMUSSH được giữ dưới dạng liên kết tham khảo theo yêu cầu; không đồng nghĩa nội dung tự biên soạn thuộc về đơn vị xuất bản.
